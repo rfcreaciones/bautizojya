@@ -24,12 +24,10 @@
 
 
 </head>
-<body>
-    
-    
+<body >
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<!-- 
+    <!-- 
     <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i> -->
 
@@ -39,7 +37,7 @@
 
 
     <header class="header" id="inicio">
-
+     
         <div class="encabezado">Nuestro Bautizo </div>
       <!--   <img class="hamburguer" src="img/hamburguesa.svg" alt=""> -->
         <!-- <nav class="menu-navegacion">
@@ -52,32 +50,35 @@
         <div class="head">
 
 
-            <div  >
+            <div  class="visible" id="visible" data-aos="zoom-in">
                 <img src="img/nombre.png"  class="img-principal">
             </div>
-            <div  data-aos="flip-left" >
+            
+            <div  class="visible" data-aos="flip-left"  id="visible">
                 <img src="img/fotoprincipal.png"  class="img-principal">
             </div>
            
-            <div >
+            <div class="visible" id="visible">
                 <img src="img/fecha.png"  class="img-principal">
             </div>
-            
+
             <!-- <h1 class="titulo">Nuestro Bautizo</h1>
             <p class="copy">Que la luz divina de Dios brille en nuestros corazones hoy y siempre</p> -->
         </div>
 
     </header>
+
+
+
     <main>
     
         <section id="inicio" class="textos-header">
             <br>
-            <h2 class="Faltan">Faltan</h2>    
-            <br>
+            <h2 class="subtitulo">El gran día se acerca solo faltan:</h2>    
             <div id="cuenta"data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"></div>
-            <h2>Para nuestro bautizo</h2>
+            <h2 class="subtitulo">Para nuestro bautizo...</h2>
              <br>
         </section>
 
@@ -85,7 +86,9 @@
             <div class="checklist-servicio"data-aos="zoom-in-down">
                 
                 <h3>
-                    En este día tan especial.<br> La luz de Dios<br> se encenderá en mi corazón<br> para iluminarla todo el <br>camino de mi vida
+                    Doy gracias a Dios Nuestro Señor<br>por darme el don de la vida<br>A mis padres por esperarme con<br>
+                    amor y recibirme con alegría<br>A mis padrinos por guiarme en el<br> camino de la luz. <br>
+                    Y a ti por acompañarme en el día<br>más importante de mi vida.
                 </h3>
                 <img src="img/bautizmo.png" alt="">
             </div>
@@ -101,13 +104,12 @@
                 <div class="checklist-servicio">
                     <div class="service" data-aos="fade-up">
                         <h3 class="n-service">Ceremonia Religiosa</h3>
-                       <img src="img/bautizo paloma.png" alt="">
+                       <img src="img/iglesia.jpg" alt="">
                        <p>Capilla de Santa Isabel Chalma
                        <h3>13:00 Hrs.</h3>
-                       Domingo 30 de Junio
-                        
-                          
+                        Domingo 30 de Junio
                         </p>
+                        <br>
                         <button class="css-button-gradient--3"  id="ceremonia">Ir a Ubicación</button>
                     </div>
                     <div class="service" data-aos="fade-down">
@@ -115,6 +117,7 @@
                         <img src="img/copas.png" alt="">
                         <h3> Después de la ceremonia agradeceremos su presencia en:</h3>
                         <p> Calle Campo Florido #10 Colonia Santa Isabel Amecameca </p>
+                        <br>
                         <button class="css-button-gradient--3" id="recepcion">Ir a Ubicación</button>
                     </div>
                   
@@ -128,12 +131,14 @@
             <img src="img/close.svg" alt="" class="close">
             <img src="" alt="" class="agregar-imagen">
         </div>
-        <section class="contenedor" id="expertos" >
+
+        <section class="contenedor padres" id="expertos" >
             <section class="experts">
                 
                 <div class="cont-expert" data-aos="fade-right">
+                    <br>
                     <h2 class="subtitulo">Nuestros Padres</h2>
-                    <img class="card" src="img/padres.png" alt="">
+                    <img class="card" src="img/padres.jpg" alt="">
                     <h3 class="n-expert">María Estefanía Soriano Villegas<br> y<br> Rogelio Velázquez Sánchez</h3>
                 </div>
              
@@ -141,7 +146,7 @@
                 <div class="cont-expert"  data-aos="fade-left">
                     <h2 class="subtitulo">Nuestros Padrinos</h2>
                     <img class="card" src="img/padrinos.jpg" alt="">
-                    <h3 class="n-expert">Ana Luiza Rivera Martinez<br>y <br>Iván Rosales</h3>
+                    <h3 class="n-expert">Ana Luiza Rivera Sandoval<br>y <br>Iván Rosales Trejo</h3>
                 </div>
              
             </section>
@@ -160,45 +165,72 @@
             </div>
         </div>
     </section>
+    <section class="contenedor">
+        <div class="experts">
+            <div class="cont-expert">
+                <br>
+                <div data-aos="flip-right">
+                    <h2 class="subtitulo">Hola… Soy José, este día también estaré festejando mi cumpleaños No.</h2>
+                </div>
+                <div data-aos="zoom-in">
+                    <img src="img/12aniversario.jpg">
+                 </div>
+                 <div data-aos="flip-right" >
+                    <h2 class="n-expert">Jose Velazquez Soriano</h2>
+                </div>
+                <br>
+                <br>
+                <div data-aos="zoom-in">
+                    <img class="card" src="img/jose.jpg">
+                    <h3 class="subtitulo">.................................</h3>
+                 </div>
+            </div>
+        </div>
+
+    </section>
     <footer id="footer">
         <div class="contenedor footer-content">
-                <div class="contact-us">
+                <div class="contact-us" data-aos="zoom-in-left">
                     <h2 class="brand">No faltes...</h2>
-                    <p>Te esperamos</p>
+                    <h3 class="n-expert">Te esperamos</h3>
+
                 </div>
                 <div class="social-media">
-                    <a href="./" class="social-media-icon">
+               
+                    <a href="" class="social-media-icon">
                         <i class='bx bxl-facebook'></i>
                     </a>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-twitter' ></i>
+
+                    <a href="" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
                     </a>
-                    <a href="./" class="social-media-icon">
+                  <!--   <a href="" class="social-media-icon">
                         <i class='bx bxl-instagram' ></i>
-                    </a>
+                    </a> -->
                 </div>
         </div>
         <div class="line"></div>
     </footer>
 
+    <script src="js/pluyingalert.js"></script>
+    <script src="js/sweetalert2.js"></script>
+
+
+
+
         <!-- animacion -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 1000
+            duration: 2000
         });
    
       </script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/sweetalert2.js"></script>
 
 
-    <script src="js/menu.js"></script>
-    <script src="js/lightbox.js"></script>
-
-
+      <script src="js/lightbox.js"></script>
     <script src="js/cuenta/simplyCountdown.min.js"></script>
     <script src="js/cuenta/countdown.js"></script>
     <script src="js/audio.js"></script>

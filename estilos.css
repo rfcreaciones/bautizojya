@@ -11,6 +11,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.visible{
+    visibility: hidden;
+}
+
+
+
+
 
 .contenedor{
     width: 90%;
@@ -246,6 +253,8 @@ h4{
     flex-wrap: wrap;
 }
 
+
+
 .contenedor-servicio img{
     width: 40%;
  
@@ -312,6 +321,7 @@ h4{
     background: rgba(0, 0, 0, 0.534);
     transform: translate(100%);
     transition: transform .2s ease-in-out;
+    z-index: 9;
 }
 
 .agregar-imagen{
@@ -343,7 +353,8 @@ h4{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: #eeede8;
+    background: #d1d08b88;
+    border-radius: 30px;
 }
 
 .cont-expert{
@@ -377,12 +388,13 @@ footer{
     flex-wrap: wrap;
     padding-top: 60px;
     padding-bottom: 40px;
+  
 }
 
 
 .contact-us{
-    width: 40%;
-    color: #fff;
+    width: 50%;
+    color: #000000;
 }
 
 .brand{

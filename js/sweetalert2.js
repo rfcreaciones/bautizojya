@@ -1,3 +1,7 @@
+
+
+
+
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
@@ -6,9 +10,9 @@ Swal.fire({
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#c99d0fec",
 	footer:'Te Esperamos, No Faltes!',
-	width:'auto',
+	width:'100%',
 	allowOutsideClick: false,
-	background: '#fff url(img/indx.jpg)',
+	// background: '#fff url(img/indx.jpg)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',
@@ -20,6 +24,9 @@ Swal.fire({
 		musica=true;
 		audio.play();
 		$('.volumen').attr("src","img/no-sound.png");
+		$('div').removeClass('visible')
+	
+
 
 	}
 
@@ -44,7 +51,7 @@ $('#recepcion').click(function () {
 		title:'Ubicación de la Recepción ',
 		//text: '',
 	
-		html:'<p>Calle Campo Florido No. 10 Colonia Santa Isabel Chalma Amecameca Edo.Mex.</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d942.2147621200111!2d-98.7642770022829!3d19.157646217544606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1713404621220!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
+		html:'<p>Calle Campo Florido No. 10 Colonia Santa Isabel Chalma Amecameca Edo.Mex.</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d235.55362342303903!2d-98.7641372086852!3d19.157693202598626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1714763394986!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
 		//icon:'success'
 		confirmButtonText:'Cerrar',
 		//footer:'Parroquia de Dulce Nombre de Jesus ',
