@@ -17,7 +17,6 @@ body{
 
 
 
-
 .contenedor{
     width: 90%;
     max-width: 1200px;
@@ -60,7 +59,7 @@ body{
     color:#635505ec;
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 55px;
     background-color: #eeede8;
     text-align: center;
     padding: 10px;
@@ -84,7 +83,7 @@ body{
     
             background: rgba(255,255,255,.4);
             backdrop-filter: blur(5px);
-            font-size: 38px;
+            font-size: 35px;
             color:#473d02ec;
         }
         
@@ -463,6 +462,7 @@ footer{
    
        
         width: 100%;
+
     
 
     }
