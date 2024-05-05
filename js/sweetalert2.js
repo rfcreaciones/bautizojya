@@ -5,7 +5,7 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">M. Estefanía Soriano Villegas <br> y<br> Rogelio Velázquez Sánchez</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al bautizo de nuestros hijos:</p><br><p class="textos-alert-inicio-T2">Joselin y Axel</p></div>',
+	html:'<p class="textos-alert-inicio">M. Estefanía Soriano Villegas <br> y<br> Rogelio Velázquez Sánchez</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al bautizo de nuestros hijos:</p><br><p class="textos-alert-inicio-T2">Yoselin y Axel</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#c99d0fec",
